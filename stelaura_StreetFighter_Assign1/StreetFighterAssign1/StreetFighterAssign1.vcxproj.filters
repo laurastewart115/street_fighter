@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GameLevel1.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenuPopupState.cpp">
+      <Filter>Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenState.h">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteEx.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSetupState.cpp">
+      <Filter>Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLevel2.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLevel3.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="RoundResultState.cpp">
+      <Filter>Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelResultState.cpp">
+      <Filter>Menus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameLevel1.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenuPopupState.h">
+      <Filter>Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteEx.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSetupState.h">
+      <Filter>Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLevel2.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLevel3.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Hadoken.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="RoundResultState.h">
+      <Filter>Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelResultState.h">
+      <Filter>Menus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{cdfcc951-c1fe-4902-8174-fc7503b8d02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{9b1b058d-79eb-41d6-aaed-a3a00d9d8ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprites">
+      <UniqueIdentifier>{4fd9c340-fd27-496b-bbe8-025d33a2a92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menus">
+      <UniqueIdentifier>{6687057a-34da-4f58-ac26-fc7d7eb39411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{2b1ada30-691e-429a-b731-2efccff17946}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
